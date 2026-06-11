@@ -1,0 +1,27 @@
+# ---- YOLO-World backbone-swap: keep heavy / machine-specific files out of git ----
+
+# Python environments (~6 GB; recreate per README "Environment")
+venv/
+.analysis-venv/
+
+# Datasets & model weights (~40 GB; fetch via scripts/download_data.sh)
+data/
+
+# Training runs: checkpoints (~13 GB) + verbose logs that also embed absolute local paths
+work_dirs/
+logs/
+
+# Model weight blobs anywhere
+*.pth
+*.pt
+*.onnx
+
+# Caches / generated
+.pipcache/
+.ultralytics/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store

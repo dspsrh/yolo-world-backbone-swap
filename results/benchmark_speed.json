@@ -1,0 +1,104 @@
+[
+  {
+    "name": "yoloworld_s_yolo11s_coco.py",
+    "arch": "yolo11s",
+    "channels": [
+      256,
+      256,
+      512
+    ],
+    "params_full_M": 80.47,
+    "params_vision_M": 17.04,
+    "params_text_M": 63.43,
+    "gflops_vision": 28.6,
+    "ms_fp32": 10.69,
+    "fps_fp32": 93.6,
+    "ms_fp16": 11.76,
+    "fps_fp16": 85.0
+  },
+  {
+    "name": "yoloworld_s_yolo12s_coco.py",
+    "arch": "yolo12s",
+    "channels": [
+      256,
+      256,
+      512
+    ],
+    "params_full_M": 80.48,
+    "params_vision_M": 17.05,
+    "params_text_M": 63.43,
+    "gflops_vision": 30.0,
+    "ms_fp32": 14.31,
+    "fps_fp32": 69.9,
+    "ms_fp16": 15.47,
+    "fps_fp16": 64.6
+  },
+  {
+    "name": "yoloworld_s_yolo26s_coco.py",
+    "arch": "yolo26s",
+    "channels": [
+      256,
+      256,
+      512
+    ],
+    "params_full_M": 80.47,
+    "params_vision_M": 17.04,
+    "params_text_M": 63.43,
+    "gflops_vision": 28.6,
+    "ms_fp32": 10.85,
+    "fps_fp32": 92.2,
+    "ms_fp16": 11.93,
+    "fps_fp16": 83.8
+  },
+  {
+    "name": "yoloworld_s_yolov10s_coco.py",
+    "arch": "yolov10s",
+    "channels": [
+      128,
+      256,
+      512
+    ],
+    "params_full_M": 75.0,
+    "params_vision_M": 11.57,
+    "params_text_M": 63.43,
+    "gflops_vision": 16.0,
+    "ms_fp32": 10.64,
+    "fps_fp32": 94.0,
+    "ms_fp16": 11.79,
+    "fps_fp16": 84.8
+  },
+  {
+    "name": "yoloworld_s_yolov8s_coco.py",
+    "arch": "yolov8s",
+    "channels": [
+      128,
+      256,
+      512
+    ],
+    "params_full_M": 76.19,
+    "params_vision_M": 12.76,
+    "params_text_M": 63.43,
+    "gflops_vision": 16.4,
+    "ms_fp32": 9.48,
+    "fps_fp32": 105.5,
+    "ms_fp16": 10.46,
+    "fps_fp16": 95.6
+  },
+  {
+    "name": "yoloworld_s_yolov9s_coco.py",
+    "arch": "yolov9s",
+    "channels": [
+      128,
+      192,
+      256
+    ],
+    "params_full_M": 70.52,
+    "params_vision_M": 7.09,
+    "params_text_M": 63.43,
+    "gflops_vision": 13.3,
+    "ms_fp32": 15.04,
+    "fps_fp32": 66.5,
+    "ms_fp16": 17.01,
+    "fps_fp16": 58.8
+  }
+]
